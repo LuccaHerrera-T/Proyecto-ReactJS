@@ -1,0 +1,45 @@
+body {
+  background-color: #000;
+  color: #f8f9fa;
+}
+
+.navbar {
+  background-color: #121212 !important;
+}
+
+.card {
+  border: none;
+  background-color: #fff;
+}
+
+.btn-primary {
+  background-color: #6a5acd;
+  border-color: #6a5acd;
+}
+
+.btn-primary:hover {
+  background-color: #7b68ee;
+  border-color: #7b68ee;
+}
+
+.btn-success {
+  background-color: #6a5acd;
+}
+
+.btn-danger {
+  background-color: #ff4d4f;
+}
+
+.list-group-item {
+  border: 1px solid #6a5acd;
+}
+
+.card img {
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .badge {
+    font-size: 0.8rem;
+  }
+  
