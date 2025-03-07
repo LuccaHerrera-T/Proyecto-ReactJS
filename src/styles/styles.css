@@ -1,92 +1,43 @@
-<<<<<<< HEAD
 body {
-  background-color: #000;
-  color: #f8f9fa;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
 }
 
-.navbar {
-  background-color: #121212 !important;
+header img.logo {
+  width: 120px;
+  margin: 16px auto;
+  display: block;
 }
 
-.card {
+h1, h2 {
+  color: #a29bfe; /* Azul pastel */
+}
+
+button {
+  background-color: #6c5ce7; /* Lila pastel */
+  color: white;
   border: none;
-  background-color: #fff;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
 }
 
-.btn-primary {
-  background-color: #6a5acd;
-  border-color: #6a5acd;
+button:hover {
+  background-color: #4e3ec7; /* Lila más oscuro */
 }
 
-.btn-primary:hover {
-  background-color: #7b68ee;
-  border-color: #7b68ee;
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  padding: 16px;
 }
 
-.btn-success {
-  background-color: #6a5acd;
+footer {
+  text-align: center;
+  background-color: #2d3436; /* Negro oscuro */
+  color: #dfe6e9; /* Gris claro */
+  padding: 16px;
 }
-
-.btn-danger {
-  background-color: #ff4d4f;
-}
-
-.list-group-item {
-  border: 1px solid #6a5acd;
-}
-
-.card img {
-    height: 150px;
-    object-fit: cover;
-  }
-  
-  .badge {
-    font-size: 0.8rem;
-  }
-=======
-body {
-  background-color: #000;
-  color: #f8f9fa;
-}
-
-.navbar {
-  background-color: #121212 !important;
-}
-
-.card {
-  border: none;
-  background-color: #fff;
-}
-
-.btn-primary {
-  background-color: #6a5acd;
-  border-color: #6a5acd;
-}
-
-.btn-primary:hover {
-  background-color: #7b68ee;
-  border-color: #7b68ee;
-}
-
-.btn-success {
-  background-color: #6a5acd;
-}
-
-.btn-danger {
-  background-color: #ff4d4f;
-}
-
-.list-group-item {
-  border: 1px solid #6a5acd;
-}
-
-.card img {
-    height: 150px;
-    object-fit: cover;
-  }
-  
-  .badge {
-    font-size: 0.8rem;
-  }
->>>>>>> f091336 (prueba 02)
-  
